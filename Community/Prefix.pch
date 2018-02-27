@@ -1,0 +1,35 @@
+//
+//  Prefix.pch
+//  Community
+//
+//  Created by liuchun on 16/6/26.
+//  Copyright © 2016年 boen. All rights reserved.
+//
+
+#ifndef Prefix_h
+#define Prefix_h
+
+#import "Defines.h"
+#import "BNTools.h"
+#import "Tools.h"
+#import "UIView+LCFrame.h"
+#import "SVProgressHUD.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+BNNextStepButton.h"
+#import "UserInfo.h"
+#import "LCDataTool.h"
+#import "MJExtension.h"
+#import "RequestApi.h"
+#import "NSDictionary+NullHandle.h"
+//#import "WXApiManager.h"
+
+
+#endif /* Prefix_h */
+
+
+#ifdef DEBUG
+#    define LCLog(...) NSLog(__VA_ARGS__)
+#else
+#    define LCLog(...)
+#endif
